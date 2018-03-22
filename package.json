@@ -6,7 +6,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "deploy:contracts": "node scripts/deploy_contracts.js",
-    "deploy:ui": "npm run build && rsync -avz build_webpack/ faradam3:/opt/ethernaut/",
+    "deploy:ui": "npm run build && rsync -avz build_webpack/ faradam3:/opt/ethernaut-ethuoft/",
     "rpc": "./scripts/rpc.sh",
     "killrpc": "kill -9 $(cat scripts/testrpc_pid)"
   },
