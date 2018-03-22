@@ -65,44 +65,6 @@
         "instanceGas": 350000
       },
       {
-        "name": "Coin Flip",
-        "created": "2018-03-18",
-        "difficulty": "3",
-        "description": "coinflip.md",
-        "completedDescription": "coinflip_complete.md",
-        "levelContract": "CoinFlipFactory.sol",
-        "instanceContract": "CoinFlip.sol",
-        "revealCode": true,
-        "deployParams": [],
-        "deployFunds": 0,
-        "deployed_development": [
-          "0xc4c7497fbe1a886841a195a5d622cd60053c1376"
-        ],
-        "deployed_ropsten": [
-          "0xd340de695bbc39e72df800dfde78a20d2ed94035"
-        ],
-        "instanceGas": 300000
-      },
-      {
-        "name": "Telephone",
-        "created": "2018-03-18",
-        "difficulty": "1",
-        "description": "telephone.md",
-        "completedDescription": "telephone_complete.md",
-        "levelContract": "TelephoneFactory.sol",
-        "instanceContract": "Telephone.sol",
-        "revealCode": true,
-        "deployParams": [],
-        "deployFunds": 0,
-        "deployed_development": [
-          "0x71e8f7c645bd8769f7edf91a199ed4213e25f0c1"
-        ],
-        "deployed_ropsten": [
-          "0x6b7b4a5260b67c1ee9196a42dd1ed8633231ba0a"
-        ],
-        "instanceGas": 230000
-      },
-      {
         "name": "Token",
         "created": "2017-11-01",
         "difficulty": "3",
@@ -158,25 +120,6 @@
           "0x24d661beb31b85a7d775272d7841f80e662c283b"
         ],
         "instanceGas": 150000
-      },
-      {
-        "name": "Vault",
-        "created": "2018-03-18",
-        "difficulty": "3",
-        "description": "vault.md",
-        "completedDescription": "vault_complete.md",
-        "levelContract": "VaultFactory.sol",
-        "instanceContract": "Vault.sol",
-        "revealCode": true,
-        "deployParams": [],
-        "deployFunds": 0,
-        "deployed_development": [
-          "0x65042cf11baea10f7a90de27f93b0fea2c7dc205"
-        ],
-        "deployed_ropsten": [
-          "0xe77b0bea3f019b1df2c9663c823a2ae65afb6a5f"
-        ],
-        "instanceGas": 200000
       },
       {
         "name": "King",
