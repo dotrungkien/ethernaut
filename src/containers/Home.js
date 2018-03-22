@@ -43,7 +43,7 @@ class Home extends React.Component {
           </h2>
           {/* INFO */}
           <p>The ethernaut is a Web3/Solidity based wargame inspired on <a href="https://overthewire.org" target="_blank" rel="noopener noreferred">overthewire.org</a> and the <a href="https://en.wikipedia.org/wiki/The_Eternaut" target="_blank" rel="noopener noreferred">El Eternauta</a> comic, played in the Ethereum Virtual Machine. Each level is a smart contract that needs to be 'hacked' in order to advance.</p>
-          <p>If you are looking for the CTF version released for Devcon3, please visit <a href="https://ethernaut-devcon3.zeppelin.solutions" target="_blank" rel="noopener noreferred">ethernaut-devcon3.zeppelin.solutions</a>. This version will be maintained for some time and is still 100% playable.</p>
+          <p>This version was deployed for the <a href="http://www.ethuoft.ca/" target="_blank" rel="noopener noreferred">ETHUofT 2018</a> security workshop.</p>
           <p>Are you interested in smart contract development or security? Does securing the world’s blockchain infrastructure sound exciting to you? <a href="https://zeppelin.solutions/about#jobs" target="_blank" rel="noopener noreferred"><strong style={{ color: '#eb5424', fontWeight: 600 }}>We are hiring!</strong></a></p>
           <button
             style={{marginTop: '10px'}}
