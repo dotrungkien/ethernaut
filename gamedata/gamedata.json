@@ -4,7 +4,7 @@
       "0x1b5ccd66cc2408a0084047720167f6234dc5498a"
     ],
     "deployed_ropsten": [
-      "0xc833a73d33071725143d7cf7dfd4f4bba6b5ced2"
+      "0xf327482760e2d1f3e3886823f21297d16b020378"
     ],
     "levels": [
       {
@@ -22,7 +22,7 @@
           "0x35623bbcb020f57f0465cce7d7ba1e8c87caee5f"
         ],
         "deployed_ropsten": [
-          "0xdf51a9e8ce57e7787e4a27dd19880fd7106b9a5c"
+          "0x27eb6ffd457d97c6bda34051de9f1d8c93b732d6"
         ],
         "instanceGas": 800000
       },
@@ -41,7 +41,7 @@
           "0x0e3c11dc1cfe82f8748363de7c58bdd4eba39a42"
         ],
         "deployed_ropsten": [
-          "0x234094aac85628444a82dae0396c680974260be7"
+          "0xccc0a3c9938053bbbb2957666fe283214a25f19b"
         ],
         "instanceGas": 350000
       },
@@ -60,7 +60,7 @@
           "0x3ee5283ae51ee4ccfd61bb23a5414db5abed55d6"
         ],
         "deployed_ropsten": [
-          "0x220beee334f1c1f8078352d88bcc4e6165b792f6"
+          "0xe8d51b1e9e64bfe16ab9c48e7dfc149e056a85ae"
         ],
         "instanceGas": 350000
       },
@@ -79,7 +79,7 @@
           "0x0711b3cd383b70b42eaf6f8fc6047ebf9b99e634"
         ],
         "deployed_ropsten": [
-          "0x6545df87f57d21cb096a0bfcc53a70464d062512"
+          "0xfe4a9a0f6091279e157c534c0350438838e42514"
         ],
         "instanceGas": 300000
       },
@@ -98,7 +98,7 @@
           "0x593b03dba3521f3a2406bc626a4f1eca2b6ee41c"
         ],
         "deployed_ropsten": [
-          "0x68756ad5e1039e4f3b895cfaa16a3a79a5a73c59"
+          "0x448acc3b975fb60f0435b2a70a8588c00bca952b"
         ],
         "instanceGas": 250000
       },
@@ -117,7 +117,7 @@
           "0x05ebcdfaa3537c9b6b6c1ef501ee609601a98574"
         ],
         "deployed_ropsten": [
-          "0x24d661beb31b85a7d775272d7841f80e662c283b"
+          "0x19d2779c16836d318b4a32a50cb75c7b3acf9c21"
         ],
         "instanceGas": 150000
       },
@@ -136,7 +136,7 @@
           "0x17c2921b8bac4aa178737aaebf7eb791a19f971c"
         ],
         "deployed_ropsten": [
-          "0x32d25a51c4690960f1d18fadfa98111f71de5fa7"
+          "0x40dd2cc6c771872a65c7f62b14f34d7a028a83d0"
         ],
         "instanceGas": 400000
       },
@@ -155,7 +155,7 @@
           "0x58bde085fd9759cc29447390cfac670987642f7b"
         ],
         "deployed_ropsten": [
-          "0xf70706db003e94cfe4b5e27ffd891d5c81b39488"
+          "0x163e3ebd9f0b90d915c7d2d74432452ff5734d4e"
         ],
         "instanceGas": 250000
       },
@@ -174,7 +174,7 @@
           "0xa544576e64d899fee2248a52845e3b2e50c9487a"
         ],
         "deployed_ropsten": [
-          "0xcd596b3e7063b068f54054beb4fb4074c87e8ad8"
+          "0xc373a4e128b83db253a95d0e457b53a2b7dc546a"
         ],
         "instanceGas": 250000
       }
