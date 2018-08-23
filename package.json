@@ -13,14 +13,13 @@
     "killrpc": "kill -9 $(cat scripts/testrpc_pid)"
   },
   "devDependencies": {
-    "bip39": "2.3.0",
-    "ethereumjs-testrpc": "^2.2.4",
     "autoprefixer": "6.5.1",
     "babel-core": "6.17.0",
     "babel-eslint": "7.1.1",
     "babel-jest": "17.0.2",
     "babel-loader": "6.2.7",
     "babel-preset-react-app": "^2.0.1",
+    "bip39": "2.3.0",
     "case-sensitive-paths-webpack-plugin": "1.1.4",
     "chalk": "1.1.3",
     "connect-history-api-fallback": "1.3.0",
@@ -35,6 +34,7 @@
     "eslint-plugin-import": "2.0.1",
     "eslint-plugin-jsx-a11y": "2.2.3",
     "eslint-plugin-react": "6.4.1",
+    "ethereumjs-testrpc": "^2.2.4",
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.9.0",
     "filesize": "3.3.0",
@@ -61,6 +61,7 @@
     "whatwg-fetch": "1.0.0"
   },
   "dependencies": {
+    "artifacts": "0.0.1",
     "babel-polyfill": "^6.26.0",
     "babel-register": "^6.26.0",
     "bignumber": "^1.1.0",
@@ -77,6 +78,7 @@
     "marked": "^0.3.17",
     "moment": "^2.21.0",
     "nan": "^2.10.0",
+    "openzeppelin-solidity": "^1.12.0",
     "prompt": "^1.0.0",
     "rainbow-color": "^2.0.0",
     "react": "^15.4.2",
@@ -93,13 +95,11 @@
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "sha3": "^1.2.2",
-    "truffle": "^4.1.11",
     "rlp": "^2.0.0",
     "sha3": "^1.2.2",
+    "truffle": "^4.1.11",
     "truffle-deployer": "^2.0.0",
-    "web3": "^0.19.1",
-    "zeppelin-solidity": "^1.6.0"
+    "web3": "^0.19.1"
   },
   "jest": {
     "collectCoverageFrom": [

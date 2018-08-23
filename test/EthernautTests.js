@@ -4,7 +4,7 @@ const DummyLevel = artifacts.require('./levels/DummyLevel.sol');
 const Dummy = artifacts.require('./levels/Dummy.sol');
 const FallbackFactory = artifacts.require('./levels/FallbackFactory.sol');
 const Manufactured = artifacts.require('./levels/Manufactured.sol');
-import expectThrow from 'zeppelin-solidity/test/helpers/expectThrow'
+import { expectThrow } from 'openzeppelin-solidity/test/helpers/expectThrow'
 import * as utils from './utils/TestUtils'
 
 contract('Ethernaut', function(accounts) {

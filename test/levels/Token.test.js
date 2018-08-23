@@ -4,8 +4,7 @@ const TokenFactory = artifacts.require('./levels/TokenFactory.sol')
 const Token = artifacts.require('./levels/Token.sol')
 
 import * as utils from '../utils/TestUtils'
-import expectThrow from 'zeppelin-solidity/test/helpers/expectThrow'
-import toPromise from 'zeppelin-solidity/test/helpers/toPromise'
+import { expectThrow } from 'openzeppelin-solidity/test/helpers/expectThrow'
 
 contract('Token', function(accounts) {
 

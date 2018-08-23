@@ -3,8 +3,8 @@ const Fallback = artifacts.require('./attacks/Fallback.sol')
 
 const Ethernaut = artifacts.require('./Ethernaut.sol')
 
-import expectThrow from 'zeppelin-solidity/test/helpers/expectThrow'
-import toPromise from 'zeppelin-solidity/test/helpers/toPromise'
+import { expectThrow } from 'openzeppelin-solidity/test/helpers/expectThrow'
+
 import * as utils from '../utils/TestUtils'
 
 contract('Fallback', function(accounts) {
@@ -34,7 +34,7 @@ contract('Fallback', function(accounts) {
     assert.notEqual(0, (await instance.getContribution({from: player})).toNumber())
     assert.notEqual(0, await utils.getBalance(web3, instance.address))
 
-    await toPromise(web3.eth.sendTransaction)({from: player, to: instance.address, value: web3.toWei(0.001, 'ether')})
+    await utils.sendTransaction({from: player, to: instance.address, value: web3.toWei(0.001, 'ether')})
     assert.equal(player, await instance.owner())
 
     await instance.withdraw({from: player})

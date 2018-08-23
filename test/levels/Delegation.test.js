@@ -4,8 +4,8 @@ const DelegationFactory = artifacts.require('./levels/DelegationFactory.sol')
 const Delegation = artifacts.require('./levels/Delegation.sol')
 
 import * as utils from '../utils/TestUtils'
-import expectThrow from 'zeppelin-solidity/test/helpers/expectThrow'
-import toPromise from 'zeppelin-solidity/test/helpers/toPromise'
+import { expectThrow } from 'openzeppelin-solidity/test/helpers/expectThrow'
+
 
 contract('Delegation', function(accounts) {
 
@@ -32,7 +32,7 @@ contract('Delegation', function(accounts) {
 
     // Use the fallback method to call the delegate's pwn()
     const pwner = web3.sha3("pwn()").substring(0, 10)
-    await toPromise(web3.eth.sendTransaction)({
+    await utils.sendTransaction({
       from: player,
       to: instance.address,
       data: pwner

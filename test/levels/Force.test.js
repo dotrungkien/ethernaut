@@ -6,8 +6,8 @@ const Force = artifacts.require('./levels/Force.sol')
 const Ethernaut = artifacts.require('./Ethernaut.sol')
 
 import * as utils from '../utils/TestUtils'
-import expectThrow from 'zeppelin-solidity/test/helpers/expectThrow'
-import toPromise from 'zeppelin-solidity/test/helpers/toPromise'
+import { expectThrow } from 'openzeppelin-solidity/test/helpers/expectThrow'
+
 
 contract('Force', function(accounts) {
 
@@ -23,23 +23,20 @@ contract('Force', function(accounts) {
   });
 
   it('should allow the player to solve the level', async function() {
-
     const instance = await utils.createLevelInstance(ethernaut, level.address, player, Force);
-
     // Check init balances
     let balance = await utils.getBalance(web3, instance.address)
     console.log(`init instance balance: ${balance}`)
     assert.equal(balance, 0)
-
     // Sending funds should not work
     await expectThrow(
-      toPromise(web3.eth.sendTransaction)({
+      utils.sendTransaction({
         from: player,
         to: instance.address,
         value: web3.toWei(0.01, 'ether')
-      }) 
+      })
     )
-      
+
     balance = await utils.getBalance(web3, instance.address)
     console.log(`instance balance: ${balance}`)
     assert.equal(balance, 0)

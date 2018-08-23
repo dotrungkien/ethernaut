@@ -5,8 +5,8 @@ const KingAttack = artifacts.require('./attacks/KingAttack.sol')
 const Ethernaut = artifacts.require('./Ethernaut.sol')
 
 import * as utils from '../utils/TestUtils'
-import expectThrow from 'zeppelin-solidity/test/helpers/expectThrow'
-import toPromise from 'zeppelin-solidity/test/helpers/toPromise'
+import { expectThrow } from 'openzeppelin-solidity/test/helpers/expectThrow'
+
 
 contract('King', function(accounts) {
 
@@ -36,7 +36,7 @@ contract('King', function(accounts) {
 
     // Ensure that players can become king
     console.log('new king...')
-    await toPromise(web3.eth.sendTransaction)({
+    await utils.sendTransaction({
       from: accounts[1],
       to: instance.address,
       value: web3.toWei(2, 'ether')
@@ -49,7 +49,7 @@ contract('King', function(accounts) {
     // Ensure that players dont become king if they dont meet the prize
     console.log('failed claim...')
     await expectThrow(
-      toPromise(web3.eth.sendTransaction)({
+      utils.sendTransaction({
         from: accounts[2],
         to: instance.address,
         value: web3.toWei(0.1, 'ether')

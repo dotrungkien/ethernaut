@@ -32,7 +32,7 @@ export default store => next => action => {
     const deployFunds = state.network.web3.toWei(parseInt(action.level.deployFunds, 10), 'ether')
     state.contracts.ethernaut.createLevelInstance(action.level.deployedAddress, {
       gas: estimate,
-      gasPrice: state.network.gasPrice,
+      // gasPrice: state.network.gasPrice,
       from: state.player.address,
       value: deployFunds
     })

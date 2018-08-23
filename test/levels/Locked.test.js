@@ -4,8 +4,8 @@ const Locked = artifacts.require('./levels/Locked.sol')
 const Ethernaut = artifacts.require('./Ethernaut.sol')
 
 import * as utils from '../utils/TestUtils'
-import expectThrow from 'zeppelin-solidity/test/helpers/expectThrow'
-import toPromise from 'zeppelin-solidity/test/helpers/toPromise'
+import { expectThrow } from 'openzeppelin-solidity/test/helpers/expectThrow'
+
 
 contract('Locked', function(accounts) {
 

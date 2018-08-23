@@ -1,7 +1,7 @@
 // These are required to enable ES6 on tests
 // and it's dependencies.
 require('babel-register')({
-  ignore: /node_modules\/(?!zeppelin-solidity)/
+  ignore: /node_modules\/(?!openzeppelin-solidity)/
 });
 require('babel-polyfill');
 

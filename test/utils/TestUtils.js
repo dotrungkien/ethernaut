@@ -1,3 +1,12 @@
+export function sendTransaction(options) {
+  return new Promise((resolve, reject) => {
+    web3.eth.sendTransaction(options, (err, res) => {
+      if(err) reject(err)
+      else resolve(res)
+    })
+  })
+}
+
 export function getBalance(web3, address) {
   return new Promise(function(resolve, reject) {
     web3.eth.getBalance(address, function(error, result) {

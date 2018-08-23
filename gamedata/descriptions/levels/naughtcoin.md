@@ -3,4 +3,4 @@ NaughtCoin is an ERC20 token and you're already holding all of them. The catch i
 &nbsp;
 Things that might help
 *  The [ERC20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md) Spec
-*  The [OpenZeppelin](https://github.com/OpenZeppelin/zeppelin-solidity/tree/master/contracts) codebase
+*  The [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts) codebase

@@ -10,7 +10,7 @@ export const NETWORKS = {
     name: 'development',
     id: '*',
     url: 'http://localhost',
-    port: 8545
+    port: 9545
   },
   ROPSTEN: {
     name: 'ropsten',
@@ -48,7 +48,7 @@ export const PATH_STATS = `${PATH_ROOT}stats`
 export const CUSTOM_LOGGING = true                              /* TRUE on production */
 export const SHOW_ALL_COMPLETE_DESCRIPTIONS = false             /* FALSE on production */
 export const SHOW_VERSION = true                                /* TRUE on production */
-export const ACTIVE_NETWORK = NETWORKS.ROPSTEN
-// export const ACTIVE_NETWORK = NETWORKS.DEVELOPMENT
+// export const ACTIVE_NETWORK = NETWORKS.ROPSTEN
+export const ACTIVE_NETWORK = NETWORKS.DEVELOPMENT
 // -----------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------
