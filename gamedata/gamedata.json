@@ -284,6 +284,21 @@
       "deployId": "18",
       "instanceGas": 3000000,
       "author": "AgeManning"
+    },
+    {
+      "name": "GuessTheNumber",
+      "created": "2018-08-24",
+      "difficulty": "2",
+      "description": "guess_the_number.md",
+      "completedDescription": "guess_the_number_complete.md",
+      "levelContract": "GuessTheNumberFactory.sol",
+      "instanceContract": "GuessTheNumber.sol",
+      "revealCode": true,
+      "deployParams": [],
+      "deployFunds": 1,
+      "deployId": "19",
+      "instanceGas": 3000000,
+      "author": "smarx"
     }
   ]
 }
